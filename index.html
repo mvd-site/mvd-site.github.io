@@ -16,6 +16,10 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -41,9 +45,9 @@
       <ul>
         <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
         <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>What We Do</span></a></li>
-        <li><a href="#testimonials" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Testimonials</span></a></li>
-        <li><a href="#team" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Team</span></a></li>
+        <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-question-mark"></i> <span>What We Do</span></a></li>
+        <li><a href="#testimonials" class="nav-link scrollto"><i class="bx bx-star"></i> <span>Testimonials</span></a></li>
+        <li><a href="#team" class="nav-link scrollto"><i class="bx bx-face"></i> <span>Team</span></a></li>
         <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Book a Chat</span></a></li>
       </ul>
     </nav><!-- .nav-menu -->
@@ -71,7 +75,7 @@
   <main id="main">
 
     <div class="brand-gradient brand-color-block" style="width: 100%; overflow: hidden; border-radius: 3cm 0 3cm  0; position: relative; text-align: center;">
-      <a href='#contact' class="vertical-align scrollto" type="submit">BOOK A CHAT</a>
+      <a href='#contact' class="vertical-align scrollto" type="submit"><b>BOOK A CHAT</b></a>
     </div>
 
     <!-- ======= About Section ======= -->
@@ -123,16 +127,18 @@
           </h4>
           <br>
           <br>
-          <h4>Our commitment to your business includes:</h4>
+          <h4>Our commitment to your business</h4>
           <br>
           <ul style="text-align: left; padding-left: 1.5cm;">
             <li>A strategy discovery meeting</li>
             <li>Face-to-face coaching covering:</li>
-            o Strategy: A clear path to product and market validity
-            o Accountability: Keeping you on track to achieve your outcomes
-            o Connections: Strategic facilitated introductions to research partners and wellbeing clients
-            o Expert Knowledge: Pitch reviews
-            o Resources: Linking you with the right information to get you to your next stage
+              <ul>
+              <li>Strategy: A clear path to product and market validity</li>
+              <li>Accountability: Keeping you on track to achieve your outcomes</li>
+              <li>Connections: Strategic facilitated introductions to research partners and wellbeing clients</li>
+              <li>Expert Knowledge: Pitch reviews</li>
+              <li>Resources: Linking you with the right information to get you to your next stage</li>
+            </ul>
             <li>Basic trial proposal document</li>
             <li>Accountability catch-ups</li>
             <li>Evidence of your progress</li>
@@ -145,9 +151,9 @@
 
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg brand-color-blue-gradient testimonials-border">
+    <section id="testimonials" class="testimonials section-bg brand-color-blue-gradient testimonials-border" data-aos="fade-up">
       <div style='background-color: white; border-radius: 3cm;'>
-      <div class="container" data-aos="fade-up">
+      <div class="container">
 
         <div class="section-title" style="padding-bottom: 0.3cm;">
           <h2>Testimonials</h2>
@@ -248,7 +254,7 @@
     <!-- ======= Team Section ======= -->
     <section id="team" class="team section-bg brand-color-blue">
       <div style="background-color: white; border-radius: 3cm 0 0 0; padding-top: 2cm;">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2>Team</h2>
@@ -428,13 +434,13 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Brisbane</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>kara@minimumviabledata.com</p>
               </div>
 
               <div class="phone">
@@ -449,7 +455,7 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="https://app.99inbound.com/api/e/2NNNf6zj" method="POST" target="_blank" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -470,6 +476,9 @@
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
+              <div style="position: absolute; left: -5000px;">
+                <input type="checkbox" name="strong_silver_honeycomb_cape" value="1" tabindex="-1" autocomplete="no">
+              </div>
             </form>
 
           </div>
