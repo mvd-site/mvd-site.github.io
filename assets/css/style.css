@@ -1221,6 +1221,11 @@ section {
 }
 
 
+.brand-gradient-yellow-to-aqua-fade {
+  background: linear-gradient(#f4e20e, #29b1af);
+}
+
+
 .brand-color-blue-gradient {
   background: linear-gradient(white, #8fd3f1);
 }  
@@ -1265,7 +1270,7 @@ section {
 
 
 .rounded-left-corner {
-  border-radius: 3cm 0 0 3cm ;
+  border-radius: 0 0 0 3cm ;
   background-color: white;
   padding: 60px 0;
 }
@@ -1276,11 +1281,20 @@ section {
   background-color: black;
 }
 
+.greyscale {
+  filter: grayscale(100%);
+  height: auto;
+}
+
 .greyscale-image {
   filter: grayscale(100%);
   border-radius: 50%;
   padding: 1cm;
 
+}
+
+.brand-img {
+  width: 100%;
 }
 
 
@@ -1397,8 +1411,12 @@ p {
   font-size: 20px;
 }
 
+h4 {
+  font-size: 24px;
+}
+
 li {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .dot-point-about {
