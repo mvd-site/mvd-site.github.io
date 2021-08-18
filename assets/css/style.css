@@ -1300,7 +1300,7 @@ section {
 
 .greyscale {
   filter: grayscale(100%);
-  height: auto;
+  height: 100%;
 }
 
 .greyscale-image {
